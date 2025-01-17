@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertManagement.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement\\flightalertmanagement\\controllers\\alertmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertManagement.csproj|solutionrelative:flightalertmanagement\\controllers\\alertmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertManagement.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement\\flightalertmanagement\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertManagement.csproj|solutionrelative:flightalertmanagement\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertManagement.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement\\flightalertmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertManagement.csproj|solutionrelative:flightalertmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C31DD2-B17A-438D-8F84-6F27ED8C1570}|FlightAlertLogic\\FlightAlertLogic.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement\\flightalertlogic\\alertlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C31DD2-B17A-438D-8F84-6F27ED8C1570}|FlightAlertLogic\\FlightAlertLogic.csproj|solutionrelative:flightalertlogic\\alertlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE0C1B5-2BED-4D82-BCFD-570FEF88CAD4}|FlightAlertData\\FlightAlertData.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement\\flightalertdata\\alertdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE0C1B5-2BED-4D82-BCFD-570FEF88CAD4}|FlightAlertData\\FlightAlertData.csproj|solutionrelative:flightalertdata\\alertdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertManagement\\Controllers\\AlertManagementController.cs",
+              "RelativeDocumentMoniker": "FlightAlertManagement\\Controllers\\AlertManagementController.cs",
+              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertManagement\\Controllers\\AlertManagementController.cs",
+              "RelativeToolTip": "FlightAlertManagement\\Controllers\\AlertManagementController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:20:51.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlertLogic.cs",
+              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertLogic\\AlertLogic.cs",
+              "RelativeDocumentMoniker": "FlightAlertLogic\\AlertLogic.cs",
+              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertLogic\\AlertLogic.cs",
+              "RelativeToolTip": "FlightAlertLogic\\AlertLogic.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:49:28.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlertData.cs",
+              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertData\\AlertData.cs",
+              "RelativeDocumentMoniker": "FlightAlertData\\AlertData.cs",
+              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertData\\AlertData.cs",
+              "RelativeToolTip": "FlightAlertData\\AlertData.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:20:26.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertManagement\\Program.cs",
+              "RelativeDocumentMoniker": "FlightAlertManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertManagement\\Program.cs",
+              "RelativeToolTip": "FlightAlertManagement\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:18:44.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertManagement\\Startup.cs",
+              "RelativeDocumentMoniker": "FlightAlertManagement\\Startup.cs",
+              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement\\FlightAlertManagement\\Startup.cs",
+              "RelativeToolTip": "FlightAlertManagement\\Startup.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwEcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:18:27.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
