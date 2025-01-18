@@ -1,0 +1,14 @@
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\bin\Debug\netcoreapp3.1\FlightAlertData.deps.json
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\bin\Debug\netcoreapp3.1\FlightAlertData.dll
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\bin\Debug\netcoreapp3.1\FlightAlertData.pdb
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.csproj.AssemblyReference.cache
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.AssemblyInfoInputs.cache
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.AssemblyInfo.cs
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.csproj.CoreCompileInputs.cache
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.sourcelink.json
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.dll
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.pdb
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\bin\Debug\netcoreapp3.1\FlightAlertData.runtimeconfig.json
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\bin\Debug\netcoreapp3.1\FlightAlertData.runtimeconfig.dev.json
+C:\Users\idan\Source\Repos\FMR\FlightAlertManagement-BackEnd\FlightAlertData\obj\Debug\netcoreapp3.1\FlightAlertData.genruntimeconfig.cache

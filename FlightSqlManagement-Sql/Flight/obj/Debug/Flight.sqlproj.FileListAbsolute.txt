@@ -1,0 +1,6 @@
+C:\Users\idan\Source\Repos\FMR\FlightSqlManagement-Sql\Flight\bin\Debug\Flight.dacpac
+C:\Users\idan\Source\Repos\FMR\FlightSqlManagement-Sql\Flight\bin\Debug\Flight.dll
+C:\Users\idan\Source\Repos\FMR\FlightSqlManagement-Sql\Flight\bin\Debug\Flight.pdb
+C:\Users\idan\Source\Repos\FMR\FlightSqlManagement-Sql\Flight\obj\Debug\Flight.sqlproj.AssemblyReference.cache
+C:\Users\idan\Source\Repos\FMR\FlightSqlManagement-Sql\Flight\obj\Debug\Flight.dll
+C:\Users\idan\Source\Repos\FMR\FlightSqlManagement-Sql\Flight\obj\Debug\Flight.pdb
