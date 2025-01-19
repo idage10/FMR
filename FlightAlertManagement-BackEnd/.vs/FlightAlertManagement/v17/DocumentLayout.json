@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BE0C1B5-2BED-4D82-BCFD-570FEF88CAD4}|FlightAlertData\\FlightAlertData.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement-backend\\flightalertdata\\models\\flightcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BE0C1B5-2BED-4D82-BCFD-570FEF88CAD4}|FlightAlertData\\FlightAlertData.csproj|solutionrelative:flightalertdata\\models\\flightcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertAPI.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement-backend\\flightalertmanagement\\controllers\\alertmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertAPI.csproj|solutionrelative:flightalertmanagement\\controllers\\alertmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,19 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FlightContext.cs",
-              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertData\\Models\\FlightContext.cs",
-              "RelativeDocumentMoniker": "FlightAlertData\\Models\\FlightContext.cs",
-              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertData\\Models\\FlightContext.cs",
-              "RelativeToolTip": "FlightAlertData\\Models\\FlightContext.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAqwDsAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T02:22:19.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AlertManagementController.cs",
               "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Controllers\\AlertManagementController.cs",
               "RelativeDocumentMoniker": "FlightAlertManagement\\Controllers\\AlertManagementController.cs",
@@ -59,12 +42,11 @@
               "RelativeToolTip": "FlightAlertManagement\\Controllers\\AlertManagementController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:20:51.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T20:20:51.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AlertLogic.cs",
               "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertLogic\\Alert\\AlertLogic.cs",
               "RelativeDocumentMoniker": "FlightAlertLogic\\Alert\\AlertLogic.cs",
@@ -72,12 +54,11 @@
               "RelativeToolTip": "FlightAlertLogic\\Alert\\AlertLogic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:49:28.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T20:49:28.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IAlertLogic.cs",
               "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertLogic\\Alert\\IAlertLogic.cs",
               "RelativeDocumentMoniker": "FlightAlertLogic\\Alert\\IAlertLogic.cs",
@@ -85,12 +66,11 @@
               "RelativeToolTip": "FlightAlertLogic\\Alert\\IAlertLogic.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAtwBAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:57:03.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T20:57:03.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AlertData.cs",
               "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertData\\Alert\\AlertData.cs",
               "RelativeDocumentMoniker": "FlightAlertData\\Alert\\AlertData.cs",
@@ -98,12 +78,11 @@
               "RelativeToolTip": "FlightAlertData\\Alert\\AlertData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T23:20:26.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T23:20:26.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IAlertData.cs",
               "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertData\\Alert\\IAlertData.cs",
               "RelativeDocumentMoniker": "FlightAlertData\\Alert\\IAlertData.cs",
@@ -111,8 +90,7 @@
               "RelativeToolTip": "FlightAlertData\\Alert\\IAlertData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T02:51:04.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T02:51:04.638Z"
             }
           ]
         }

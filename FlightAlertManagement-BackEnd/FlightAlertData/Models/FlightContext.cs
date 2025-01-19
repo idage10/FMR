@@ -20,6 +20,7 @@ namespace FlightAlertData.Models
         }
 
         public virtual DbSet<Alerts> Alerts { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -58,6 +59,31 @@ namespace FlightAlertData.Models
                     .HasColumnType("decimal(18, 2)");
 
                 entity.Property(e => e.UserId).HasColumnName("user_id");
+            });
+
+            modelBuilder.Entity<Users>(entity =>
+            {
+                entity.HasKey(e => e.UserId)
+                    .HasName("PK__users__B9BE370FA8A9A5AB");
+
+                entity.ToTable("users");
+
+                entity.Property(e => e.UserId).HasColumnName("user_id");
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasColumnName("name")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Email)
+                    .IsRequired()
+                    .HasColumnName("email")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.PhoneNumber)
+                    .IsRequired()
+                    .HasColumnName("phone_number")
+                    .HasMaxLength(15);
             });
 
             OnModelCreatingPartial(modelBuilder);
