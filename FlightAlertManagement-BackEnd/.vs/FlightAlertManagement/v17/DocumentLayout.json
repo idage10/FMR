@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertAPI.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement-backend\\flightalertmanagement\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertAPI.csproj|solutionrelative:flightalertmanagement\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertAPI.csproj|c:\\users\\idan\\source\\repos\\fmr\\flightalertmanagement-backend\\flightalertmanagement\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61AA194-5DE4-48ED-B5AD-BE0654D44D85}|FlightAlertManagement\\FlightAlertAPI.csproj|solutionrelative:flightalertmanagement\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,37 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Startup.cs",
-              "RelativeDocumentMoniker": "FlightAlertManagement\\Startup.cs",
-              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Startup.cs",
-              "RelativeToolTip": "FlightAlertManagement\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T05:29:30.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "FlightAlertManagement\\Controllers\\UserManagementController.cs",
-              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "FlightAlertManagement\\Controllers\\UserManagementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T05:13:26.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AlertManagementController.cs",
               "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Controllers\\AlertManagementController.cs",
               "RelativeDocumentMoniker": "FlightAlertManagement\\Controllers\\AlertManagementController.cs",
@@ -61,6 +31,19 @@
               "ViewState": "AQIAAG8AAAAAAAAAAAAowIMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T20:20:51.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "FlightAlertManagement\\Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Users\\idan\\Source\\Repos\\FMR\\FlightAlertManagement-BackEnd\\FlightAlertManagement\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "FlightAlertManagement\\Controllers\\UserManagementController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAowAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T05:13:26.256Z",
               "EditorCaption": ""
             }
           ]

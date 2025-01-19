@@ -12,6 +12,7 @@ namespace FlightAlertData.User
     public class UserData: IUserData
     {
         private readonly FlightContext _flightContext;
+
         public UserData(FlightContext flightContext)
         {
             _flightContext = flightContext;
