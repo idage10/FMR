@@ -1,19 +1,14 @@
 using FlightAlertData.Alert;
 using FlightAlertData.Models;
+using FlightAlertData.User;
 using FlightAlertLogic.Alert;
+using FlightAlertLogic.User;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FlightAlertManagement
 {
@@ -35,6 +30,8 @@ namespace FlightAlertManagement
             // Add dependency injection
             services.AddScoped<IAlertLogic, AlertLogic>();
             services.AddScoped<IAlertData, AlertData>();
+            services.AddScoped<IUserLogic, UserLogic>();
+            services.AddScoped<IUserData, UserData>();
 
             // Add DBContext
             services.AddDbContext<FlightContext>(options =>
@@ -70,7 +67,11 @@ namespace FlightAlertManagement
             { 
                 endpoints.MapControllerRoute(
                     name: "default", 
-                    pattern: "Alerts/{controller=AlertManagement}/{action=Index}/{id?}"); 
+                    pattern: "Alerts/{controller=AlertManagement}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "Users/{controller=UserManagement}/{action=Index}/{id?}");
             });
 
             app.UseCors("AllowOrigin");

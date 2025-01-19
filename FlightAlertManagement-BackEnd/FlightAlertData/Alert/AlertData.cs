@@ -39,21 +39,21 @@ namespace FlightAlertData.Alert
 
         public async Task<AlertDTO> GetAlert(int id)
         {
-            Alerts alerts = await _flightContext.Alerts.FindAsync(id);
+            Alerts alertEntity = await _flightContext.Alerts.FindAsync(id);
 
-            if (alerts == null)
+            if (alertEntity == null)
             {
                 return null;
             }
 
             AlertDTO alert = new AlertDTO
             {
-                AlertId = alerts.AlertId,
-                UserId = alerts.UserId,
-                FlightSource = alerts.FlightSource,
-                FlightDestination = alerts.FlightDestination,
-                PriceThreshold = alerts.PriceThreshold,
-                IsActive = alerts.IsActive
+                AlertId = alertEntity.AlertId,
+                UserId = alertEntity.UserId,
+                FlightSource = alertEntity.FlightSource,
+                FlightDestination = alertEntity.FlightDestination,
+                PriceThreshold = alertEntity.PriceThreshold,
+                IsActive = alertEntity.IsActive
             };
 
             return alert;
