@@ -8,4 +8,8 @@
     <ProjectReference Include="..\FlightAlertData\FlightAlertData.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="User\" />
+  </ItemGroup>
+
 </Project>

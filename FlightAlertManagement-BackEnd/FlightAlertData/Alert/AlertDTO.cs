@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FlightAlertData
+namespace FlightAlertData.Alert
 {
     public class AlertDTO
     {

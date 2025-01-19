@@ -1,13 +1,12 @@
-﻿using FlightAlertData;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightAlertLogic
+namespace FlightAlertData.Alert
 {
-    public interface IAlertLogic
+    public interface IAlertData
     {
         public IQueryable<AlertDTO> GetAlerts();
         public Task<AlertDTO> GetAlert(int id);

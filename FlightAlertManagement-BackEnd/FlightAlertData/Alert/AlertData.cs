@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightAlertData
+namespace FlightAlertData.Alert
 {
     public class AlertData : IAlertData
     {
@@ -90,7 +90,7 @@ namespace FlightAlertData
                 IsActive = alert.IsActive
             };
 
-            _flightContext.Entry(alertContext).State = EntityState.Modified; 
+            _flightContext.Entry(alertContext).State = EntityState.Modified;
             int result = await _flightContext.SaveChangesAsync();
 
             return result > 0; // Returns true if one or more state entries were written to the database

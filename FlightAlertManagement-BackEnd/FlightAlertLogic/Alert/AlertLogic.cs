@@ -1,9 +1,9 @@
-﻿using FlightAlertData;
+﻿using FlightAlertData.Alert;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FlightAlertLogic
+namespace FlightAlertLogic.Alert
 {
     public class AlertLogic : IAlertLogic
     {

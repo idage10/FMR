@@ -1,5 +1,5 @@
-﻿using FlightAlertData;
-using FlightAlertLogic;
+﻿using FlightAlertData.Alert;
+using FlightAlertLogic.Alert;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;

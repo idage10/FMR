@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlightAlertData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3682a47f1f32c8e967dd51308415b573a7f32c95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+807f84bca6ad3c94d8989ba37404fbcc59f42a61")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlightAlertData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlightAlertData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
