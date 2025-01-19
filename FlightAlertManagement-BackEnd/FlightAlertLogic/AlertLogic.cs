@@ -24,19 +24,19 @@ namespace FlightAlertLogic
             return await _alertData.GetAlert(id);
         }
 
-        public async Task CreateAlert(AlertDTO alert)
+        public async Task<bool> CreateAlert(AlertDTO alert)
         {
-            await _alertData.CreateAlert(alert);
+            return await _alertData.CreateAlert(alert);
         }
 
-        public Task<AlertDTO> UpdateAlert()
+        public async Task<bool> UpdateAlert(AlertDTO alert)
         {
-            throw new NotImplementedException();
+            return await _alertData.UpdateAlert(alert);
         }
 
-        public Task<AlertDTO> DeleteAlert(int id)
+        public async Task<bool> DeleteAlert(int id)
         {
-            throw new NotImplementedException();
+            return await _alertData.DeleteAlert(id);
         }
     }
 }

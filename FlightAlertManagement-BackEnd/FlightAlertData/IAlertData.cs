@@ -10,8 +10,8 @@ namespace FlightAlertData
     {
         public IQueryable<AlertDTO> GetAlerts();
         public Task<AlertDTO> GetAlert(int id);
-        public Task CreateAlert(AlertDTO alert);
-        public Task<AlertDTO> UpdateAlert();
-        public Task<AlertDTO> DeleteAlert(int id);
+        public Task<bool> CreateAlert(AlertDTO alert);
+        public Task<bool> UpdateAlert(AlertDTO alert);
+        public Task<bool> DeleteAlert(int id);
     }
 }

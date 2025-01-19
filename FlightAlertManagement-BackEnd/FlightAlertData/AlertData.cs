@@ -41,6 +41,11 @@ namespace FlightAlertData
         {
             Alerts alerts = await _flightContext.Alerts.FindAsync(id);
 
+            if (alerts == null)
+            {
+                return null;
+            }
+
             AlertDTO alert = new AlertDTO
             {
                 AlertId = alerts.AlertId,
@@ -54,7 +59,7 @@ namespace FlightAlertData
             return alert;
         }
 
-        public async Task CreateAlert(AlertDTO alert)
+        public async Task<bool> CreateAlert(AlertDTO alert)
         {
             Alerts alertContext = new Alerts
             {
@@ -68,17 +73,41 @@ namespace FlightAlertData
 
             _flightContext.Alerts.Add(alertContext);
 
-            await _flightContext.SaveChangesAsync();
+            int result = await _flightContext.SaveChangesAsync();
+
+            return result > 0; // Returns true if one or more state entries were written to the database
         }
 
-        public Task<AlertDTO> UpdateAlert()
+        public async Task<bool> UpdateAlert(AlertDTO alert)
         {
-            throw new NotImplementedException();
+            Alerts alertContext = new Alerts
+            {
+                AlertId = alert.AlertId,
+                UserId = alert.UserId,
+                FlightSource = alert.FlightSource,
+                FlightDestination = alert.FlightDestination,
+                PriceThreshold = alert.PriceThreshold,
+                IsActive = alert.IsActive
+            };
+
+            _flightContext.Entry(alertContext).State = EntityState.Modified; 
+            int result = await _flightContext.SaveChangesAsync();
+
+            return result > 0; // Returns true if one or more state entries were written to the database
         }
 
-        public Task<AlertDTO> DeleteAlert(int id)
+        public async Task<bool> DeleteAlert(int id)
         {
-            throw new NotImplementedException();
+            Alerts alert = await _flightContext.Alerts.FindAsync(id);
+            if (alert == null)
+            {
+                return false;
+            }
+
+            _flightContext.Alerts.Remove(alert);
+            int result = await _flightContext.SaveChangesAsync();
+
+            return result > 0; // Returns true if one or more state entries were written to the database
         }
     }
 }

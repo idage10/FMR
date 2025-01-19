@@ -3,7 +3,6 @@ using FlightAlertLogic;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -66,11 +65,15 @@ namespace FlightAlertManagement.Controllers
 
         [HttpPost]
         [Route("CreateAlert")]
-        public async Task<IActionResult> CreateAlert(AlertDTO alert)
+        public async Task<IActionResult> CreateAlert([FromBody] AlertDTO alert)
         {
             try
             {
-                await _alertLogic.CreateAlert(alert);
+                bool isSuccess = await _alertLogic.CreateAlert(alert);
+                if (!isSuccess)
+                {
+                    return Problem(detail: "Failed to create alert.", statusCode: 500);
+                }
 
                 return CreatedAtAction(nameof(CreateAlert), new { id = alert.AlertId }, alert);
             }
@@ -81,50 +84,52 @@ namespace FlightAlertManagement.Controllers
             }
         }
 
-        //[HttpPut]
-        //[Route("UpdateAlert")]
-        //public async Task<IActionResult> UpdateAlert(int id, Alert alert)
-        //{
-        //    if (id != alert.AlertId)
-        //    {
-        //        return BadRequest("Alert ID mismatch.");
-        //    }
-        //
-        //    _context.Entry(alert).State = EntityState.Modified;
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Problem("An error occurred while updating the alert: " + ex.Message);
-        //    }
-        //
-        //    return NoContent();
-        //}
-        //
-        //[HttpDelete]
-        //[Route("DeleteAlert")]
-        //public async Task<IActionResult> DeleteAlert(int id)
-        //{
-        //    var alert = await _context.Alerts.FindAsync(id);
-        //    if (alert == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //
-        //    _context.Alerts.Remove(alert);
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Problem("An error occurred while deleting the alert: " + ex.Message);
-        //    }
-        //
-        //    return NoContent();
-        //}
+        [HttpPut]
+        [Route("UpdateAlert")]
+        public async Task<IActionResult> UpdateAlert([FromQuery] int id, [FromBody] AlertDTO alert)
+        {
+            if (id != alert.AlertId)
+            {
+                return BadRequest("Alert ID mismatch.");
+            }
+        
+            try
+            {
+                bool isSuccess = await _alertLogic.UpdateAlert(alert);
+                if (!isSuccess)
+                {
+                    return Problem(detail: "Failed to update alert.", statusCode: 500);
+                }
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+                return Problem(detail: $"An error occurred while updating alert with id '{alert.AlertId}': " + ex.Message, statusCode: 500);
+            }
+        }
+        
+        [HttpDelete]
+        [Route("DeleteAlert")]
+        public async Task<IActionResult> DeleteAlert([FromQuery] int id)
+        {
+            try
+            {
+                bool isSuccess = await _alertLogic.DeleteAlert(id);
+                if (!isSuccess)
+                {
+                    return Problem(detail: $"Failed to delete alert with id {id}.", statusCode: 500);
+                }
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+                return Problem(detail: $"An error occurred while deleting alert with id '{id}': " + ex.Message, statusCode: 500);
+            }
+        }
     }
 
 }
